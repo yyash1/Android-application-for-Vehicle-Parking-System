@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="colorWhite">#ffffff</color>
+    <color name="colorPurple">#983CFF</color>
+    <color name="colorPurpleT">#64983cff</color>
+    <color name="colorBlue">#2FB4FF</color>
+    <color name="colorBlueT">#642fb4ff</color>
+    <color name="colorGreen">#47B91A</color>
+    <color name="colorGreenT">#6433E71F</color>
+
+    <color name="light_grey">#F5EFEF</color>
+    <color name="dark_grey">#D6DBDF</color>
+    <color name="dark_grey1">#A7A9AA</color>
+    <color name="extreame_dark_grey">#3E3F3F</color>
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+
+    <color name="mehdi_color">#0A7263</color>
+    <color name="extreame_mehdi_color">#0F5248</color>
+    <color name="mehdi_colorT">#14DABD</color>
+    <color name="red">#E41A0B</color>
+</resources>

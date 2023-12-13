@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activities.ViewBookPlot4Activity"
+    android:background="@drawable/road_icon"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/txt_screen_title"
+            android:text="PLOT 1"
+            android:textSize="22dp"
+            android:textColor="@color/colorAccent"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:layout_margin="10dp"
+            android:padding="8dp"
+            android:background="@drawable/buttonbackgroundwhite"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/txt_screen_title1"
+            android:text="Select Any Slot to Book Your Car Parking"
+            android:textSize="22dp"
+            android:textColor="@color/colorAccent"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:layout_margin="10dp"
+            android:padding="8dp"
+            android:background="@drawable/buttonbackgroundwhite"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+
+            <Button
+                android:layout_width="125dp"
+                android:layout_height="75dp"
+                android:id="@+id/btn_view_slot1"
+                android:text="SLOT 1"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:textSize="14dp"
+                android:background="@drawable/buttonbackgroundwhite"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="10dp"
+                android:clickable="false"
+                android:fontFamily="sans-serif-condensed-medium"/>
+
+            <Button
+                android:layout_width="125dp"
+                android:layout_height="75dp"
+                android:id="@+id/btn_view_slot2"
+                android:text="SLOT 2"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:textSize="14dp"
+                android:background="@drawable/buttonbackgroundwhite"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="80dp"
+                android:clickable="false"
+                android:fontFamily="sans-serif-condensed-medium"/>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:layout_width="125dp"
+                android:layout_height="75dp"
+                android:id="@+id/btn_view_slot3"
+                android:text="SLOT 3"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:textSize="14dp"
+                android:background="@drawable/buttonbackgroundwhite"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="10dp"
+                android:clickable="false"
+                android:fontFamily="sans-serif-condensed-medium"/>
+
+            <Button
+                android:layout_width="125dp"
+                android:layout_height="75dp"
+                android:id="@+id/btn_view_slot4"
+                android:text="SLOT 4"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:textSize="14dp"
+                android:background="@drawable/buttonbackgroundwhite"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="80dp"
+                android:clickable="false"
+                android:fontFamily="sans-serif-condensed-medium"/>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:layout_width="125dp"
+                android:layout_height="75dp"
+                android:id="@+id/btn_view_slot5"
+                android:text="SLOT 5"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:textSize="14dp"
+                android:background="@drawable/buttonbackgroundwhite"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="10dp"
+                android:clickable="false"
+                android:fontFamily="sans-serif-condensed-medium"/>
+
+            <Button
+                android:layout_width="125dp"
+                android:layout_height="75dp"
+                android:id="@+id/btn_view_slot6"
+                android:text="SLOT 6"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:textSize="14dp"
+                android:background="@drawable/buttonbackgroundwhite"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="80dp"
+                android:clickable="false"
+                android:fontFamily="sans-serif-condensed-medium"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/progress"
+        android:layout_centerInParent="true"
+        android:visibility="gone"/>
+
+</RelativeLayout>

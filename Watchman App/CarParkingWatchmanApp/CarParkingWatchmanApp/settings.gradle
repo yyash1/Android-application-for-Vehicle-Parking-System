@@ -1,0 +1,2 @@
+rootProject.name='CarParkingWatchmanApp'
+include ':app'
